@@ -1,0 +1,117 @@
+<!--cheat-sheet.html -->
+<!DOCTYPE html> <!--DOCTYPE tells the browswer what kind of file we are using -->
+
+<html> <!--start of html document -->
+
+<!-- HTML shell : html, head, body -->
+
+<head> <!-- start head section: configuration -->
+
+	<title> My Cheat Sheet</title>
+	<!--title on the tab of the browser -->
+
+	<!--link is to bring my styles from my css file into this html file. Href is the attribute with the name of the css file-->
+
+	<link rel="stylesheet" type ="text/css"
+	href="cheat-sheet.css">
+	<style type="text/css">
+		/*this is an internal styling */
+		div{
+			margin-top: 20px;
+			margin-left: 20px;
+			margin-bottom: 20px;
+			margin-right: 20px;
+			border-style:dotted;
+			border-color: red;
+		}
+	</style>
+
+	</head> <!-- ending of head section -->
+
+<body><!-- start of body section: all visible parts of the web page -->
+
+<h1 class="heading"> Heading 1 </h1> <!-- heading to show section titles -->
+<h2 class="heading"> Heading 2 </h2>
+<h3 class="heading"> Heading 3 </h3>
+<h4 class="heading"> Heading 4 </h4>
+<h5 class="heading"> Heading 5 </h5>
+<h6 class="heading"> Heading 6 </h6>
+<p> This is a paragraph and it should be very long. I have no magination so I am just typing words to make this paragraph longer and longer and longer </p>
+
+<p id="my_paragraph"> This is a paragraph and it should be very long. I have no nation so I am just typing words to make this paragraph longer and longer and longer </p>
+<!-- p will add a paragraph with a space above and below -->
+
+<!-- img is to add images to the web page, src is the path to the image and name, alt is a text description for imag, hiehgt in pixels, width in pixels -->
+
+<img src ="https://blackexcellence.com/wp-content/uploads/2018/11/Vlcsnap-2012-04-13-21h38m11s226.jpg"
+width="300">
+
+<!-- ul: unordered list type bullet-->
+<ul type="disc">
+	<li> My candy </li> <!--li (list element) for elements on the list -->
+	<li>Your candy </li>
+	<li>Our candy </li>
+</ul>
+
+<!-- ul:unordered list type circle -->
+<ul type= "circle">
+	<li> My candy </li> <!-- li (list element) for elements on the list -->
+	<li> Your candy </li>
+	<li> Our candy </li>
+</ul>
+
+<ol type="1">
+	<li> First class </li>
+	<li> Second class </li>
+	<li> Third class </li>
+	<li> Fourth class </li>
+</ol>
+<!-- ordered list type "A" uses capital letters -->
+<ol type="A">
+	<li> First class </li>
+	<li> Second class </li>
+	<li> Third class </li>
+	<li> Fourth class </li>
+</ol>
+<!-- ordered list type "a" uses lowercase letters-->
+<ol type="a">
+	<li> First class </li>
+	<li> Second class </li>
+	<li> Third class </li>
+	<li> Fourth class </li>
+</ol>
+<!-- ordered list type "I" uses capital roman numerals -->
+<ol type="I">
+	<li> First class </li>
+	<li> Second class </li>
+	<li> Third class </li>
+	<li> Fourth class </li>
+</ol>
+<!-- ordered list type "i" uses lowercase roman numerals -->
+<ol type="i">
+	<li> First class </li>
+	<li> Second class </li>
+	<li> Third class </li>
+	<li> Fourth class </li>
+</ol>
+
+<!-- a tag (anchor) is to add hyperlinks -->
+<a href="https://www.youtube.com">YouTube</a> <!-- absolute link-->
+<br> <!-- line break -->
+<a href="cheat-sheet.html">Cheat Sheet</a> <!--relative link -->
+
+<!-- div is to define an area within the web page. -->
+<div>
+	<p> This is another paragraph </p>
+<ol type="i">
+	<li> First class </li>
+	<li> Second class </li>
+	<li> Third class </li>
+	<li> Fourth class </li>
+</ol>
+</div>
+
+
+</body> <!-- ending of body section -->
+
+</html> <!-- ending of html document -->

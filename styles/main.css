@@ -1,0 +1,36 @@
+/* styles/main.css */
+body {
+	background: rgb(252, 210, 102);
+	font-family: 'Heebo', sans-serif;
+
+}
+
+h1 {
+	color:rgb(255, 250, 250);
+	font-weight: bold;
+}
+
+ol {
+	font-style: italic;
+	font-weight: bold;
+	color: rgb(255,250,250);
+}
+a{
+	text-decoration: none;
+}
+
+#border {
+	border: round;
+	border-style:solid;
+	width: 250px;
+}
+
+#nav {background-color: white;
+color:white;
+width: 250px;}
+
+.image {
+	border: round;
+	border-style: solid;
+	margin: 20px 40px 60px 80px;
+}
